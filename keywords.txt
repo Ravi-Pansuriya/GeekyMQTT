@@ -1,0 +1,28 @@
+#######################################
+# Syntax Coloring Map For GeekyMQTT
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+GeekyMQTT	KEYWORD1
+MQTTPublisher	KEYWORD1
+MQTTSubscriber	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+clientId 	KEYWORD2
+generateClientId 	KEYWORD2
+loop 	KEYWORD2
+macToStr 	KEYWORD2
+publish 	KEYWORD2
+setCallback 	KEYWORD2
+setServer	KEYWORD2
+subscribe 	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
