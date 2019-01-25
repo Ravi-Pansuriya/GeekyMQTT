@@ -12,8 +12,6 @@ This library has dependency of `PubSubClient`. you must first resolve that by in
 The library comes with a number of example sketches. See File > Examples > GeekyMQTT
 within the Arduino application.
 
-Full API documentation is available here: http://pubsubclient.knolleary.net
-
 ## Limitations
 
  - It can only work over geekyworks implementation format and has all the limitation of `PubSubClient`
