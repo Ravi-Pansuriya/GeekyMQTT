@@ -1,7 +1,7 @@
-# Arduino Client for MQTT
+# GeekyMQTT Client
 
 This library provides a client for doing simple publish/subscribe messaging with
-geekyworks iot server that supports MQTT.
+geekyworks' iot server that supports MQTT.
 
 ## Dependency
 
