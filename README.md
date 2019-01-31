@@ -18,7 +18,7 @@ within the Arduino application.
 
 ## Limitations
 
- - It only works over geekyworks' specified MQTT format and has all the limitation of `PubSubClient`. [library](https://github.com/knolleary/pubsubclient/issues)
+ - It only works over geekyworks' specified MQTT format and has all the limitation of `PubSubClient` ([issues](https://github.com/knolleary/pubsubclient/issues)).
 
 ## Compatible Hardware
 
