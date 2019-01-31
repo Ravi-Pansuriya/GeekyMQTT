@@ -5,7 +5,7 @@ geekyworks' iot server that supports MQTT.
 
 ## Dependency
 
-This library has dependency of `PubSubClient`. you must first resolve that by installing `PubSubClient` library in you Arduino IDE. [library](https://github.com/knolleary/pubsubclient)
+This library has dependency of [PubSubClient](https://github.com/knolleary/pubsubclient). you must first resolve that by installing [PubSubClient](https://github.com/knolleary/pubsubclient) library in you Arduino IDE.
 
 ## Examples
 
