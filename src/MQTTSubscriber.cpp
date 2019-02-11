@@ -33,7 +33,7 @@ void MQTTSubscriber::setCallback(MQTTCallback callback){
 /* Private methods */
 void MQTTSubscriber::_callbackHandler(char* topic, uint8_t* payload, unsigned int length){
     StringSplitter *splitter = new StringSplitter(String(topic), '/', 3);
-    if (splitter->getItemCount() == 3 && splitter->getItemAtIndex(1) == "device") {
+    if (splitter->getItemCount() == 3 && (splitter->getItemAtIndex(1) == "devices" || splitter->getItemAtIndex(1) == "sensors")) {
         if (_callback != NULL){
             _callback(String(topic), splitter->getItemAtIndex(2), payload, length);
         }
